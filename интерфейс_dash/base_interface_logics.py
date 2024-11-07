@@ -6,8 +6,7 @@ import os
 import uuid
 import pandas as pd
 
-df = pd.read_excel('C:/Users/Maria Smirnova/Desktop/Проекты/межнар/интерфейс_dash/User_list.xlsx')
-
+df = pd.read_excel('C:/Users/Maria Smirnova/Desktop/Проекты/межнар/it-hatters_hacks_ai_24/интерфейс_dash/User_list.xlsx')
 
 red_button_style = {'background': "#0a0a23",
                     'color': 'white',
@@ -87,7 +86,7 @@ def save_and_display_path(contents):
         file_name = f"{uuid.uuid4().hex}.mp4"
         
         # Путь к папке для сохранения файлов
-        upload_folder = r'C:\Users\Maria Smirnova\Desktop\Проекты\межнар\интерфейс_dash\\'#os.path.join(os.getcwd(), 'User')
+        upload_folder = r'C:\Users\Maria Smirnova\Desktop\Проекты\межнар\it-hatters_hacks_ai_24\интерфейс_dash\\'#os.path.join(os.getcwd(), 'User')
         
         # Проверяем наличие папки, создаем ее, если нет
         if not os.path.exists(upload_folder):
