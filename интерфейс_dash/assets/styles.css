@@ -1,0 +1,64 @@
+/* Стилевое правило для центрирования блока */
+.centered-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-big {
+    width: 400px;
+    height: 40px;
+    placeholder {
+        font-size: 24px; /* Размер замещающего текста */
+
+    }
+
+}
+.montserrat-text {
+    font-family: Montserrat;
+}
+
+.american-captain-header {
+    font-family: 'American Captain';
+}
+
+.upload-container {
+    display: inline-block;
+    padding: 15px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.upload-container:hover {
+    background-color: #f0f0f0;
+    border-color: #888;
+}
+
+.upload-message {
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+
+.upload-link {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.exit-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;  /* Перемещаем вверх */
+    right: 20px; /* Перемещаем вправо */
+}
+
+.exit-button:hover {
+    background-color: darkred;
+}
