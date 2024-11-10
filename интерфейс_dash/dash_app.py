@@ -7,7 +7,7 @@ import uuid
 import pandas as pd
 import dash_html_components as dhc
 
-df = pd.read_excel('C:/Users/Maria Smirnova/Desktop/Проекты/межнар/it-hatters_hacks_ai_24/интерфейс_dash/User_list.xlsx')
+df = pd.read_excel('/User_list.xlsx')
 
 app = dash.Dash(__name__)
 
